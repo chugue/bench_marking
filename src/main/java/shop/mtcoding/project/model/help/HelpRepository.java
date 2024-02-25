@@ -1,12 +1,10 @@
 package shop.mtcoding.project.model.help;
 
-import java.util.List;
-
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.h2.command.dml.Help;
-
 import shop.mtcoding.project.dto.help.HelpReq.HelpSaveReqDto;
+
+import java.util.List;
 
 @Mapper
 public interface HelpRepository {
